@@ -1,0 +1,28 @@
+{
+  "name": "react_postgres_docker_app",
+  "version": "1.0.0",
+  "description": "A basic starter template for using Node 16 / React 18.2.0 / PostgreSQL 13",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "prisma": "^4.12.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.12.0",
+    "bootstrap": "^5.2.3",
+    "create-next-app": "^13.3.0",
+    "formik": "^2.2.9",
+    "react-bootstrap": "^2.7.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "yup": "^1.0.2"
+  }
+}
