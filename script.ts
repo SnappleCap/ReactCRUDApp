@@ -44,12 +44,7 @@ async function main() {
   // })
   // console.log(JSON.stringify(student))
 
-  const deletedRelation = prisma.studentsInSchoolClasses.delete({
-  where: { studentId_schoolClassId: { studentId: 17 } },
-})
-    console.log(deletedRelation)
-
-    const student = await prisma.student.findMany()
+  const student = await prisma.student.findMany()
   console.log(student)
 
   const studentsInClasses = await prisma.studentsInSchoolClasses.findMany()
